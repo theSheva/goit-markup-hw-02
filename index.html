@@ -4,11 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!--LOGO-->
-      <a href="./index.html">WebStudio</a>
+      <a href="./index.html"
+        ><span class="logo-half">Web</span
+        ><span class="logo-accent">Studio</span></a
+      >
 
       <!--NAVIGATION-->
       <nav>
@@ -34,13 +48,13 @@
     </header>
 
     <main>
-      <section>
+      <section id="Studio" class="hero">
         <h1>Effective Solutions for Your Business</h1>
         <button type="button">Order Service</button>
       </section>
 
       <!--Our Features-->
-      <section>
+      <section class="features">
         <h2>Our Features</h2>
 
         <ul>
@@ -78,8 +92,8 @@
         </ul>
       </section>
 
-      <!--Contacts-->
-      <section>
+      <!--Team-->
+      <section class="team">
         <h2>Our Team</h2>
 
         <ul>
@@ -128,11 +142,83 @@
           </li>
         </ul>
       </section>
+
+      <section class="portfolio" id="Portfolio">
+        <h2>Our Portfolio</h2>
+
+        <ul>
+          <li>
+            <img
+              src="./images/banking-app.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/cashless-payment.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/meditation-app.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/taxi-service.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/screen-illustrations.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/online-courses.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
+    <footer class="footer" id="Contacts">
       <!--Footer Logotip-->
-      <a href="./index.html">WebStudio</a>
+      <a class="footer-logo" href="./index.html">
+        <span class="logo-half">Web</span>Studio
+      </a>
 
       <p>
         Increase the flow of customers and sales for your business with digital
