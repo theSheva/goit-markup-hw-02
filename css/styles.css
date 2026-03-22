@@ -35,6 +35,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #2E2F42;
 }
 .nav-link:hover,
@@ -45,6 +46,8 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
     color: #434455;
 }
 .contact-link:hover,
@@ -55,21 +58,25 @@ ul {
     color: #FFFFFF;
     background-color: #2E2F42;
 }
-.hero h1 {
- font-style: bold;
+.hero-title {
+    font-weight: 700;
  font-size: 56px;
     line-height: 1.0714;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2E2F42;
+    color: #FFFFFF;
 }
-.hero button { 
+.hero-button { 
     color: #FFFFFF;
     background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
-.hero button:hover,
-.hero button:focus {    
+.hero-button:hover,
+.hero-button:focus {    
     background-color: #404BBF;
 }
 .team {
@@ -78,16 +85,15 @@ ul {
 .team-item {
 background-color: #FFFFFF;
 }
-.team h2 {
+.team-title  {
     font-weight: 700;
-    list-style-type: bold;
     font-size: 36px;
     line-height: 1.1111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 }
-.team h3 {
+.team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -95,7 +101,7 @@ background-color: #FFFFFF;
     text-align: center;
     color: #2E2F42;
 }
-.team p {
+.team-role {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -104,23 +110,22 @@ background-color: #FFFFFF;
 .portfolio {
     background-color: #FFFFFF;
 }
-.portfolio h2 {
+.portfolio-main-title {
     font-weight: 700;
-    list-style-type: bold;
     font-size: 36px;
     line-height: 1.1111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 }
-.portfolio h3 {
+.portfolio-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.portfolio p {
+.portfolio-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -133,7 +138,6 @@ background-color: #FFFFFF;
   font-family: "Raleway", sans-serif;
   color: #F4F4FD;
     font-weight: 700;
-    font-style: bold;
     font-size: 18px;
     line-height: 1.1666;
     letter-spacing: 0.03em;
